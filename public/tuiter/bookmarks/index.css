@@ -1,0 +1,100 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-text-color-white {
+    color: white
+}
+
+.wd-text-color-red {
+    color: red
+}
+
+.wd-bookmark-header {
+    clear: both;
+    padding: 10px;
+    border-bottom: 2px solid rgb(110, 118, 125);
+    height: 85px;
+}
+
+.wd-header-left {
+    float: left;
+    width: 75%;
+}
+
+.wd-header-right {
+    float: right;
+    width: 25%;
+}
+
+h3#wd-bookmark-title {
+    color: white;
+    font-family: Arial;
+    font-size:20px;
+}
+
+.wd-username {
+    color: rgb(110, 118, 125);
+    font-family: Arial;
+    font-size:13px;
+}
+
+.wd-big-ellipses {
+    position: absolute;
+    right: 20px;
+    color: rgb(29, 161, 242);
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.wd-bookmark {
+    clear: both;
+    padding: 10px;
+    border-bottom: 2px solid rgb(110, 118, 125);
+    height: 430px;
+}
+
+.wd-bookmark-left {
+    float: left;
+    width: 10%;
+}
+.wd-bookmark-right {
+    float: right;
+    width: 90%;
+}
+
+.wd-profile-name {
+    color: white;
+    font-size: 18;
+    font-family: Arial;
+}
+
+.wd-bottom-bar {
+    clear: both;
+    padding: 10px;
+    height: 10px;
+}
+
+.wd-fourth-col {
+    float: left;
+    width: 25%;
+}
+
+.wd-dull-link {
+    text-decoration: none;
+    color: white;
+}
+
+.wd-content {
+    border: 1px solid rgb(110, 118, 125);
+    border-radius: 5px;
+}
+
+.wd-post-title {
+    padding-left: 12px;
+}
+
+.wd-post-description {
+    padding-left: 12px;
+    color:rgb(110, 118, 125);
+}
