@@ -1,5 +1,3 @@
-import { Link }
-    from "react-router-dom";
 import Classes from "./classes";
 import ConditionalOutput from "./conditional-output";
 import Styles from "./styles";
