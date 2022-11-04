@@ -1,43 +1,45 @@
 import React from "react";
 
+console.log(window.location.pathname)
+
 const NavigationSidebar = (
  {
-   active = 'explore'
+   path = window.location.pathname
  }
 ) => {
  return (
    <div className="list-group">
      <a href="/" className="list-group-item">Tuiter</a>
-     <a href="/" className={`list-group-item
-                    ${active === 'home'?'active':''}`}>
+     <a href="/tuiter/home" className={`list-group-item
+                    ${path === '/tuiter/home'?'active':''}`}>
        Home
      </a>
-     <a href="/" className={`list-group-item
-                    ${active === 'explore'?'active':''}`}>
+     <a href="/tuiter" className={`list-group-item
+                    ${path === '/tuiter/'?'active':''}`}>
        Explore
      </a>
      <a href="/" className={`list-group-item
-                    ${active === 'notifications'?'active':''}`}>
+                    ${path === 'notifications'?'active':''}`}>
        Notifications
      </a>
      <a href="/" className={`list-group-item
-                    ${active === 'messages'?'active':''}`}>
+                    ${path === 'messages'?'active':''}`}>
        Messages
      </a>
      <a href="/" className={`list-group-item
-                    ${active === 'bookmarks'?'active':''}`}>
+                    ${path === 'bookmarks'?'active':''}`}>
        Bookmarks
      </a>
      <a href="/" className={`list-group-item
-                    ${active === 'lists'?'active':''}`}>
+                    ${path === 'lists'?'active':''}`}>
        Lists
      </a>
      <a href="/" className={`list-group-item
-                    ${active === 'profile'?'active':''}`}>
+                    ${path === 'profile'?'active':''}`}>
        Profile
      </a>
      <a href="/" className={`list-group-item
-                    ${active === 'more'?'active':''}`}>
+                    ${path === 'more'?'active':''}`}>
        More
      </a>
    </div>
