@@ -15,6 +15,8 @@ function App() {
             element={<HelloWorld />} />
           <Route path="/tuiter/*"
             element={<Tuiter />} />
+          <Route path="/tuiter/home"
+            element={<Tuiter />} />
           <Route path="/a7"
             element={<Assignment7/>} />
         </Routes>
