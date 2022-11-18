@@ -31,7 +31,7 @@ function Tuiter() {
        <Routes>
             <Route index
             element={<ExploreComponent/>}/>
-            <Route path="/tuiter/home"
+            <Route path="home"
             element={<HomeComponent/>}/>
         </Routes>
      </div>
