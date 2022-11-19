@@ -7,12 +7,6 @@ const initialState = {
    loading: false
 }
 
-const currentUser = {
- "userName": "NASA",
- "handle": "@nasa",
- "image": "nasa.png",
-};
-
 const fulltuitsSlice = createSlice({
  name: 'tuits',
  initialState,
