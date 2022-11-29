@@ -27,7 +27,7 @@ const TuitItem = (
         <div className="col-10">
           <span><b>{tuit.userName}</b> | {tuit.topic} | {tuit.time}</span>
           <br/>
-          <span>{tuit.title}</span>
+          <span>{tuit.tuit}</span>
           <br/>
           <span><AiOutlineHeart onClick={() => dispatch(updateTuitThunk({
             ...tuit,

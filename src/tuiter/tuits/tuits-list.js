@@ -13,6 +13,8 @@ const TuitsList = () => {
      dispatch(findTuitsThunk())
    }, [dispatch])
   
+   console.log(tuits)
+
  return(
    <ul className="list-group">
      {
